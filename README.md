@@ -9,13 +9,12 @@ Current Weather Display:
 Once a location is selected, the website displays current weather conditions, such as:
 -Temperature
 -Weather status (e.g., clear, cloudy, rain)
--Humidity
 -Wind speed
--Atmospheric pressure
+-RealFeel
 
 5-Day Weather Forecast:
 The website provides a 5-day forecast, showing:
--Daily minimum and maximum temperatures
+-Daily average temperatures
 -General weather conditions for each day
 -Weather icons for visual clarity
 
