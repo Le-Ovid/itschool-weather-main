@@ -1,0 +1,112 @@
+/* Customizam Bootstrap */
+.btn-secondary,
+.btn-secondary:focus {
+  background-color: #333;
+  border-color: #333;
+}
+.btn-secondary:hover {
+  background-color: #3adf7c;
+}
+.btn-secondary:active {
+  background: #ffffff;
+}
+
+.text-primary {
+  color: #101d42 !important;
+}
+
+.text-secondary {
+  color: #fbb44c !important;
+}
+
+.text-light {
+  color: #eaeaea !important;
+}
+
+.bg-primary {
+  background-color: #141e4c !important;
+}
+
+.bg-secondary {
+  background-color: #dfedf5 !important;
+}
+
+.bg-dark {
+  background-color: #101d42 !important;
+}
+
+h1,
+h2,
+h3 {
+  font-weight: bold;
+}
+
+/* Adaugam font-ul nostru */
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Layout */
+body {
+  display: flex;
+  flex-direction: column;
+
+  min-height: 100vh;
+}
+
+main {
+  flex-grow: 1;
+}
+
+/* Header */
+header {
+  height: 30vh;
+}
+
+/* Dorim ca toti copii directi din .weather-forecast-box sa aiba aceeasi dimensiune. */
+.weather-forecast-box > * {
+  flex: 1;
+}
+
+/* Adaugam stilizarile de mobile. */
+@media (max-width: 576px) {
+  .current-weather {
+    text-align: center;
+  }
+
+  .current-weather img {
+    width: 75px;
+    height: auto;
+  }
+
+  .weather-forecast-box img {
+    width: 50px;
+    height: auto;
+  }
+
+  .weather-forecast-box .real-feel {
+    display: none;
+  }
+}
+.scroll-to-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #333;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 12px;
+  cursor: pointer;
+  /* ascuns */
+  display: none;
+  z-index: 1000;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+  transition: opacity 0.3s ease;
+}
+.scroll-to-top:hover {
+  background-color: #3adf7c;
+}
+.scroll-to-top:active {
+  background-color: rgb(255, 255, 255);
+}
