@@ -25,4 +25,4 @@ Responsive and User-Friendly Interface:
 The website is optimized for various screen sizes, offering a smooth user experience on both desktop and mobile devices.
 
 ## Demo
-The project is deployed here: https://glowing-chaja-bddf0d.netlify.app/
+The project is deployed here: https://98wl-weather.netlify.app/
